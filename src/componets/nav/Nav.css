@@ -1,0 +1,169 @@
+:root {
+    --border-radius-5: 0.5rem;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFFEFC;
+    transition: all 0.6s ease;
+}
+
+#header.sticky {
+    transition: all 0.6s ease;
+    z-index: 999;
+}
+
+#header.sticky .navbar {
+    height: 6rem;
+}
+
+#header.sticky .header__wrapper {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+#header .header__wrapper {
+    max-width: 1392px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header .navbar {
+    flex-grow: 1;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    transition: 0.6s;
+
+}
+
+.nav__logo img {
+    width: 100%;
+}
+
+.navbar .nav__item {
+    position: relative;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: var(--border-radius-5);
+}
+.nav__item .item__name:after {
+    content: '';
+    width: 0.8rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 50%;
+    right: -0.1rem;
+    background-image: url('https://www.notion.so/front-static/shared/icons/nav-caret.svg');
+}
+.nav__item:hover .item__name::after {
+    /* background-image: url('https://www.notion.so/front-static/shared/icons/nav-caret.svg'); */
+    transform: rotate(180deg);
+} 
+.navbar .nav__item:hover {
+    background: #F7F6F4;
+}
+
+.navbar .nav__banner {
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.dropdown,
+.nav__item .nav__drop {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 3.5rem;
+    padding: 0.4rem;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: var(--border-radius-5);
+}
+.nav__item .nav__drop {
+    visibility: hidden;
+}
+.nav__item:hover .nav__drop {
+    visibility: visible;
+}
+
+.nav__item .nav__solutions {
+    flex-direction: row;
+}
+
+.nav__solutions .nav__drop--sol {
+    padding-right: 1rem;
+    min-width: max-content;
+}
+
+.nav__solutions .nav__drop--sol:not(:last-child) {
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.15);
+}
+
+.nav__drop--sol .drop__title--sol {
+    padding: 0 1.8rem 0.8rem;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.nav__drop .drop__item {
+    min-width: max-content;
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--border-radius-5);
+}
+
+.nav__drop .drop__item:hover {
+    background: #F7F6F4;
+}
+
+.drop__item .drop__link {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.drop__item .drop__des {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.drop__down .btn-downpay {
+    width: 100%;
+    padding: 0.6rem 0.4rem;
+    background-color: inherit;
+    border-radius: var(--border-radius-5);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.15);
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav__right--user {
+    display: flex;
+}
+
+.nav__right--user .nav__req {
+    position: relative;
+}
+
+.nav__right--user .nav__req:after {
+    position: absolute;
+    right: 0;
+    top: 55%;
+    transform: translateY(-50%);
+    content: '';
+    width: 1px;
+    height: 60%;
+    background: rgba(0, 0, 0, 0.25);
+}

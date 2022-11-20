@@ -1,0 +1,129 @@
+.display-flex {
+    display: flex;
+}
+.hidden {
+    visibility: hidden;
+}
+#footer {}
+
+#footer .footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 6rem 0;
+}
+
+.footer__container .footer__notion {
+    position: relative;
+}
+
+.footer__info .notion__logo {
+    max-width: 9rem;
+    max-height: 9rem;
+}
+
+.notion__logo img {
+    width: 100%;
+}
+
+.footer__info .notion__name {
+    position: absolute;
+    right: 6rem;
+    top: 3.5rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.footer__info .info__title {
+    font-weight: 600;
+}
+
+.footer__info .info__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__content a {
+    padding-top: 0.6rem;
+}
+
+.info__content a:hover,
+.footer__left .item__status:hover {
+    color: red !important;
+    text-decoration: underline;
+
+}
+
+.footer__orther {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+}
+
+.footer__left .footer__item {
+    padding: 0.8rem 1rem;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer__item .dropdown {
+    max-height: max-content;
+    min-width: 20rem;
+    position: absolute;
+    top: -635%;
+    z-index: 99;
+}
+.dropdown .drop__item {
+    margin: 0.2rem 0;
+    padding: 0.5rem 0;
+}
+.footer__left .footer__item:hover,
+.dropdown .drop__item:hover {
+    background: #F7F6F4;
+}
+
+.footer__left .footer__item:not(:last-child) {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.footer__left .footer__item:last-child {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.footer__orther .footer__social {
+    justify-content: flex-end;
+}
+
+.footer__social .social__item {
+    max-height: 3.5rem;
+    padding: 0.2rem 0.7rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+.social__item i {
+    font-size: 2.2rem;
+}
+.footer__social .social__item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.footer__social .social__item:hover:nth-child(1) {
+    color: #04e3eb;
+}
+
+.footer__social .social__item:hover:nth-child(2) {
+    color: #0481eb;
+}
+
+.footer__social .social__item:hover:nth-child(3) {
+    color: #0447eb;
+}
+
+.footer__social .social__item:hover:nth-child(5) {
+    color: #eb2a04;
+}

@@ -1,0 +1,107 @@
+.month__statistic {
+    height: 100%;
+}
+.manage__month {
+    padding: 0 1rem;
+    height: 100%;
+    border-radius: 0.5rem;
+    /* background: #f1eeed; */
+    border: 0.1rem solid  rgba(0, 0, 0, 0.1);
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+.manage__month .month__finance{
+    width: 100%;
+}
+.month__finance .finance__title { 
+    margin-top: 1rem;
+    /* text-transform: uppercase; */
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.finance__value {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finance__value .month__value {
+    width: 100%;
+    height: 8.4rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    border: 0.1rem solid rgb(255, 206, 86);
+
+}
+.month__value .value__display {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.month__value .value__input {
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+.finance__value .value__currency {
+    position: absolute;
+    right: 1rem;
+}
+.value__currency .btn__price {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0.05rem 0.05rem 0.1rem 0.1rem rgba(0, 0, 0, 0.05);
+    background: inherit;
+    cursor: pointer;
+}
+.value__currency .btn__price:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.manage__month .month__statis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+.statis__money {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border:  0.1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0.05rem 0.05rem 0.1rem 0.1rem rgba(0, 0, 0, 0.05);
+}
+.month__statis .static__re {
+    border:  0.1rem solid rgb(54, 162, 235);
+}
+.month__statis .static__ex {
+    border:  0.1rem solid rgb(255, 99, 132);
+}
+.statis__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.statis__money .statis__value {
+    margin-top: 1rem;
+    display: flex;
+}
+.price__value {
+    width: 80%;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+.value__currency:first-child{
+
+}
+.statis__value .value__revenue {
+    color:rgb(54, 162, 235) ;
+}
+.statis__value .value__expend {
+    color: rgb(255, 99, 132)
+}

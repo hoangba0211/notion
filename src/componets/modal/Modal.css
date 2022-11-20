@@ -1,0 +1,89 @@
+.btn__add {
+    width: 100% !important;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important;
+    padding:1rem !important;
+    border-radius: 0.5rem !important;
+    background: inherit !important;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    text-transform: capitalize !important;
+}
+.btn__add span{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    padding: 0.2rem;
+}
+.btn__edit {
+    color: rgba(0, 0, 0, 0.5) !important;
+    max-width: 1.5rem !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.modal__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.modal__form .form__icon {
+    width: 10%;
+}
+.modal__form .form__name {
+    width: 90%;
+}
+.info__status {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 1.5rem;
+    margin-left: 3rem;
+}
+.info__status .form__price {
+    width: 60%;
+    margin-left: 1rem;
+}
+.input__info{
+    width: 100%;
+    font-size: 2.5rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+}
+.input__info::placeholder {
+    font-weight:600 ;
+    color: rgba(0, 0, 0, 0.2);
+}
+.input__price {
+    font-size: 1.5rem;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root,
+.form__info .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+    font-size: 1.6rem !important;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+    font-size: 2rem !important;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    left: 52.9% !important;
+    top: 51% !important;
+}
+.form__note {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.form__note input {
+    width: 100%;
+    padding: 1rem;
+    margin-left: 1.2rem;
+    border: none;
+}
+.modal .form__submit {
+    float: right;
+    margin-top: 1.4rem;
+}

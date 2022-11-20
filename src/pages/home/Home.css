@@ -1,0 +1,306 @@
+:root {
+    --color-desc: #00000099;
+    --box-shadow: 0.1rem 0.1rem 2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    transition: all 0.6s ease;
+}
+#home .content__title {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+#home .content__desc {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin:1.8rem 33rem 0 0;
+}
+#home .btn__try {
+    margin-top: 1rem;
+    width: 14rem;
+}
+#home .home__introduce {
+    margin: 20rem 0 12rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.home__introduce .introduce__content{
+    width: 50%;
+}
+
+.content__trusted p {
+    margin-top: 2rem;
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.content__trusted .trusted__team {
+    display: flex;
+}
+.trusted__team .team__item {
+    max-height: 3rem;
+    max-width: 9rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.team__item img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    object-fit: contain;
+}
+.home__introduce .introduce__img{
+    position:absolute;
+    right: 10rem;
+}
+.introduce__img img {
+    max-width: 50rem;
+}
+/* Home Feature */
+#home .home__feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.home__feature .feature__img {
+    width: 70%;
+}
+.feature__img img {
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+
+}
+.home__feature .feature__desc {
+    width: 30%;
+}
+.feature__desc .desc__title {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.home__feature .desc__content {
+    font-weight: 500;
+    color: var(--color-desc);
+}
+
+/* Popular */
+#home .home__popular {
+    margin: 12rem 0;
+}
+.home__popular .popular__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+.popular__header .header__content {
+    width: 55%;
+}
+#home .header__content .content__title{
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+.home__popular .header__img {
+    width: 45%;
+}
+.header__img img {
+    width: 50%;
+    float: right;
+}
+/* Popular Feature */
+
+.home__popular .popular__feature {
+    display: flex;
+    justify-content: space-between;
+
+}
+.popular__feature .popular__sidebar {
+    position: relative;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.popular__sidebar .sidebar__trusted {
+    position: absolute;
+    bottom: 0;
+}
+.sidebar__trusted p {
+    color: var(--color-desc);
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.sidebar__trusted .trusted__team {
+    max-width: 9.5rem;
+    max-height: 3rem;
+}
+.sidebar__trusted .trusted__team img {
+    width: 100%;
+}
+.sidebar__list .sidebar__item {
+    margin-bottom: 2.5rem;
+}
+.sidebar__item span {
+    font-size: 1.8rem;  
+    font-weight: 600;
+    padding: 1rem;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.sidebar__item span:hover,
+.sidebar__item span.active {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background:rgba(0, 0, 0, 0.06);
+}
+.popular__feature .popular__illustration {
+    width: 75%;
+}
+.popular__illustration .illustration__img {
+    float: right;
+    border-radius:1.2rem ;
+    max-width: 96rem;
+    max-height: 60rem;
+    box-shadow: var(--box-shadow);
+    transition: all 0.5s ease;
+}
+.illustration__img img {
+    width: 100%;
+    height: 100%;
+}
+.home__popular .btn__see{
+    max-width: max-content;
+    padding: 1rem;
+    margin-top: 1.8rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-radius:0.5rem ;
+    background: #fff;
+    cursor: pointer;
+}
+.btn__see .btn__try--link {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+}
+.btn__try--link i {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+/* Popular Template */
+.home__popular .popular__template {
+
+}
+.popular__template .template__slider{
+    display: flex;
+    justify-content: space-between;
+}
+.template__slider .template__item {
+    width: 30%;
+}
+.template__item .template__img {
+    width: 100%;
+    box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+}
+.template__img img{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+.template__item .template__name {
+    margin: 1rem 0 2rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.template__name p:hover {
+    text-decoration: underline;
+}
+.template__slider .template__toggle {
+
+}
+.template__toggle .btn__toggle {
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    border: 0.1rem solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    box-shadow: 0.1rem 0.1rem 0.6rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+.template__toggle .btn__toggle:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.template__toggle .btn__right {
+    margin-left: 1.5rem;
+}
+
+/* Popular Story*/
+.popular__story .customer__story{
+    display: flex;
+    justify-content: space-between;
+}
+.customer__story .story__teams {
+    width: 30%;
+}
+.story__teams .teams__logo {
+    max-width: 8rem;
+    max-height: 6rem;
+    margin-bottom: 1rem;
+}
+.teams__logo img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Home Try */
+#home .home__try {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 0;
+}
+.home__try .home__logo {
+    max-width: 8rem;
+    max-height: 8rem;
+}
+.home__logo img {
+    width: 100%;
+} 
+.home__try .try__today {
+    font-size: 4.4rem;
+    margin-bottom: 1rem;
+}
+.home__try .try__content {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-desc);
+}
+.home__try .btn__try {
+    text-align: center;
+    min-width: 26rem;
+    margin-top: 2rem;
+}
+.home__try .try__contact {
+    margin-top: 1.5rem;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.try__contact a {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+.try__contact a:hover {
+    color: red;
+}
+.home__try .try__img {
+    position: absolute;
+    left: 10rem;
+    bottom: 0;
+    max-width: 25rem;
+}
+.try__img img {
+    width: 100%;
+}

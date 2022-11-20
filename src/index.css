@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: inter-var, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+  background: #fffefc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #111111 !important;
+  text-decoration: none;
+}
+hr.hr {
+  height: 0.01rem;
+  padding: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 0.001rem solid rgba(0, 0, 0, 0.08);
+}
+span.note {
+  text-decoration: underline;
+}
+span.note:hover {
+  color: #b22222;
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1392px;
+  margin: 20rem auto 0;
+}
+.btn__submit,
+.btn__try {
+  padding: 0.8rem 1rem;
+  margin-right: 1rem;
+  border-radius: var(--border-radius-5);
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #e16259;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.0471111),
+    0px 1.54074px 2.86667px rgba(0, 0, 0, 0.0728889),
+    0px 0.325926px 0.733333px rgba(0, 0, 0, 0.12);
+}
+
+.btn__submit,
+.btn__try .btn__try--link {
+  color: #ffffff !important;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.btn__try .btn__try--link:hover {
+  background-color: inherit;
+}
+
+/* Member */
+.teams__comment {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.5;
+}
+.team__member {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.team__member .member__avatar {
+  width: 20%;
+}
+.member__avatar img {
+  width: 100%;
+}
+.team__member .member__identity {
+  width: 80%;
+  margin-left: 1rem;
+}
+.member__identity .member__name {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.member__identity .member__job {
+  color: rgba(0, 0, 0, 0.6);
+}
+/* Display Flex */
+.my__row{
+  display: flex;
+  align-items: center;
+}

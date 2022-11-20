@@ -1,0 +1,174 @@
+* {
+    font-size: 1.6rem;
+}
+
+#login {
+    width: 100%;
+}
+
+#login .login__user {
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6rem;
+    margin-bottom: 7.5rem;
+    position: relative;
+}
+
+/* Login Service */
+.login__user .login__service {}
+
+.login__service .service__title {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5rem;
+}
+
+.login__service .service__support {
+    padding: 0 2rem;
+    margin: 2rem 0;
+    background: #F9F5F1;
+    border-radius: 0.5rem;
+}
+
+.service__support .service__item {
+    padding: 2rem 0;
+    display: flex;
+}
+
+.service__support .service__item:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.service__item .item__icon {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.service__item .item__content {
+    margin-left: 1rem;
+}
+
+.item__content p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.login__service .support__visit {
+    margin-top: 1.5rem;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.support__visit span {
+    text-decoration: underline;
+}
+
+.support__visit span:hover {
+    color: #b22222;
+    text-decoration: none;
+}
+
+/* Register */
+
+.login__func .login__title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.login__func .form__user {
+    padding: 0.5em 0;
+}
+
+.form__user .form__input {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.form__input:focus {
+    box-shadow: rgb(35 131 226 / 57%) 0px 0px 0px 1px inset, rgb(35 131 226 / 35%) 0px 0px 0px 2px;
+}
+
+.login__func .pass__display {
+    margin-bottom: 1rem;
+}
+
+/* Login Change */
+#login .login__change {
+    position: absolute;
+    top: 50%;
+    right: -20%;
+    transform: translateY(-50%);
+}
+
+.login__change .btn__change {
+    border: 0;
+    background: inherit;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    margin-right: 0.6rem;
+}
+
+.login__change .btn__change:hover {
+    color: #b22222;
+    text-decoration: underline;
+}
+
+/* Login Propagate */
+#login .login__propagate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 0;
+}
+
+.login__propagate .propa__title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.login__propagate .propa__teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 4rem;
+    margin-bottom: 6rem;
+}
+
+.propa__teams .items__logo {
+    max-width: 11rem;
+    max-height: 2.5rem;
+}
+
+.items__logo img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+.login__propagate .props__cmt {
+    max-width: 94rem;
+    letter-spacing: -0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.props__cmt>p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.props__cmt .team__member {
+    max-width: 26rem;
+}

@@ -1,0 +1,11 @@
+.updating {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.updating .updating__title {
+    font-size: 4rem;
+    font-weight: 700;
+}

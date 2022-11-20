@@ -1,0 +1,36 @@
+#signin {
+    padding: 0 5rem;
+}
+#signin hr {
+    width: 80%;
+    margin: 0 auto;
+}
+#signin .btn__signin {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    background: #fff;
+    border-radius: 0.3rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.btn__signin .icon {
+    margin-right: 0.5rem;
+}
+#signin .btn__signin:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#signin .form__manual {
+    display: flex;
+    justify-content: space-between;
+}
+.form__manual .forgot__pass {
+    text-decoration: underline;
+}
+.signin__manual {
+    margin-top: 1rem;
+}
+.signin__manual p {
+    text-align: center;
+}

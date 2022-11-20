@@ -1,0 +1,186 @@
+.css-zow5z4-MuiGrid-root {
+  display: block !important;
+  width: 100% !important;
+  margin-top: 0 !important;
+}
+.css-169iwlq-MuiCalendarPicker-root {
+  padding: 0rem 1rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+.css-dplwbx-MuiPickersCalendarHeader-label {
+    font-size: 2rem;
+    font-weight: 700;
+  margin-right: 0 !important;
+}
+.css-sf5t6v-PrivatePickersSlideTransition-root-MuiDayPicker-slideTransition {
+    max-height: max-content !important;
+}
+.css-sf5t6v-PrivatePickersSlideTransition-root-MuiDayPicker-slideTransition > *{
+}
+.css-169iwlq-MuiCalendarPicker-root {
+    width: 100% !important;
+    margin: 0;
+}
+.css-1fyyp8j-MuiGrid-root {
+    width: 100% !important;
+}
+.css-qklzlb-MuiDayPicker-header,
+.css-ghi3gg-MuiDayPicker-weekContainer {
+    justify-content: space-around !important;
+}
+.css-raiqh1-MuiTypography-root-MuiDayPicker-weekDayLabel {
+    font-size: 1.3rem !important;
+}
+.css-1fyyp8j-MuiGrid-root {
+    max-width: 100% !important;
+}
+.css-3eghsz-PrivatePickersYear-button,
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root, 
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root {
+    font-size: 1.3rem !important;
+}
+.css-i4bv87-MuiSvgIcon-root,
+.css-1tkx1wf-MuiSvgIcon-root-MuiPickersCalendarHeader-switchViewIcon,
+.css-118r9cm-MuiSvgIcon-root-MuiPickersCalendarHeader-switchViewIcon {
+    font-size: 2.5rem !important;
+}
+
+/* Manage */
+#manage {
+    width: 100%;
+    height: 100%;
+
+}
+#manage .manage__content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 38% 28% 34%;
+    margin-bottom: 5rem;
+}
+
+/* Manage money */
+.manage__center {
+    height: 100%;
+    padding-top: 2.4rem;
+    margin-left: 2.4rem;
+}
+/* Manage__right */
+.manage__content .manage__right {
+    height: 100%;
+    padding-top: 2.4rem;
+    /* border: 0.1rem solid rgba(0, 0, 0, 0.1); */
+}
+.manage__right .manage__board {
+}
+.manage__board .board__element {
+    position: relative;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0.1rem 0.1rem 0.4rem 0rem rgba(0, 0, 0, 0.1);
+}
+.manage__board .board__element:hover {
+    background: rgba(0, 0, 0, 0.01);
+}
+.manage__board .board__element:hover .element__option {
+    opacity: 1;
+}
+.board__element .element__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board__element .element__name {
+    max-width: 100%;
+    width: auto;
+    font-size: 1.6rem;
+    font-weight: 600;
+    white-space:pre-wrap;
+    word-break: break-word;
+}
+.element__cost {
+    padding-left: 1rem;
+    text-align: center;
+    font-weight:500 ;
+}
+
+.element__option {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.4);
+    background: #fff;
+    opacity: 0;
+    transition:all .25s ease ;
+}
+.element__option .edit__option {
+    
+}
+.element__option .btn__option {
+    display: flex;
+    align-items: center;
+    padding:0.7rem;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+.element__option .edit__option {
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.element__option .btn__option {
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.element__option .edit__option:hover,
+.element__option .btn__option:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    min-width: 3.5rem !important;
+}
+/* Expenditure */
+.board__element.revenue {
+    border: 0.1rem solid #0499eb;
+}
+.board__element.revenue .element__cost {
+    color: #0499eb;
+}
+
+/* Expenditure */
+.board__element.expenditure {
+    border: 0.1rem solid #eb2e04;
+}
+.board__element.expenditure .element__cost {
+    color: #eb2e04;
+}
+
+#manage .manage__chart {
+    width: 100%;
+    display: grid;
+    column-gap: 2%;
+    grid-template-columns:36% 62% ;
+
+}
+#manage .chart {
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0.1rem 0.1rem 0.4rem 0rem rgba(0, 0, 0, 0.1);
+}
+.manage__chart  .chart__line {
+    
+}
+#manage  .chart__pie {
+    
+}

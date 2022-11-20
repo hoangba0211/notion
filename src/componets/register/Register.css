@@ -1,0 +1,19 @@
+#register .register__form {
+    width: 100%;
+}
+.register__form .user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+.register__form select.form__input {
+    padding-right: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+#register .form__agree {
+    margin-bottom: 1rem;
+}
+.form__submit button {
+    width: 15rem;
+    border: none;
+}

@@ -1,0 +1,30 @@
+#spends {
+    height: 100%;
+}
+/* Feature Tab */
+.feature__tab {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.feature__tab .tab__item {
+    display: flex;
+    padding: 0.5rem 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.tab__item.active {
+    border-bottom: 0.2rem solid #000;
+    color: rgba(0, 0, 0, 1);
+}
+.tab__item .tab__icon {
+    margin-right: 0.5rem;
+}
+.tab__item .tab__name {
+    font-size: 1.4rem;
+}
+
+/*Tab */
+.tab__content {
+
+}
