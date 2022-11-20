@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/notion/static/css/main.72e1e2e5.css",
+    "main.js": "/notion/static/js/main.1d1e5629.js",
+    "static/js/787.b91a4d7d.chunk.js": "/notion/static/js/787.b91a4d7d.chunk.js",
+    "index.html": "/notion/index.html",
+    "main.72e1e2e5.css.map": "/notion/static/css/main.72e1e2e5.css.map",
+    "main.1d1e5629.js.map": "/notion/static/js/main.1d1e5629.js.map",
+    "787.b91a4d7d.chunk.js.map": "/notion/static/js/787.b91a4d7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72e1e2e5.css",
+    "static/js/main.1d1e5629.js"
+  ]
+}
